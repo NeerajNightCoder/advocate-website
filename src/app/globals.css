@@ -1,26 +1,72 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --apple-bg: #ffffff;
+  --apple-muted: #f5f5f7;
+  --apple-label: #1d1d1f;
+  --apple-secondary: #6e6e73;
+  --apple-tertiary: #86868b;
+  --apple-link: #0071e3;
+  --apple-link-hover: #0077ed;
+  --apple-border: #d2d2d7;
+  --apple-fill: #e8e8ed;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-apple-bg: var(--apple-bg);
+  --color-apple-muted: var(--apple-muted);
+  --color-apple-label: var(--apple-label);
+  --color-apple-secondary: var(--apple-secondary);
+  --color-apple-tertiary: var(--apple-tertiary);
+  --color-apple-link: var(--apple-link);
+  --color-apple-border: var(--apple-border);
+  --color-apple-fill: var(--apple-fill);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-devanagari: var(--font-noto-sans-devanagari);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--apple-bg);
+  color: var(--apple-label);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer utilities {
+  .font-apple {
+    font-family:
+      -apple-system,
+      BlinkMacSystemFont,
+      "SF Pro Text",
+      "SF Pro Display",
+      var(--font-inter),
+      system-ui,
+      sans-serif;
+  }
+
+  .glass-bar {
+    background-color: rgb(255 255 255 / 0.72);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+
+  .legal-citation {
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.01em;
+  }
+
+  .apple-section-pad {
+    @apply px-5 py-16 md:px-8 md:py-24;
+  }
+
+  .apple-headline {
+    @apply text-4xl font-semibold tracking-tight text-apple-label md:text-5xl md:tracking-[-0.02em];
+  }
+
+  .apple-subhead {
+    @apply text-xl font-semibold tracking-tight text-apple-label md:text-2xl md:tracking-[-0.02em];
+  }
+
+  .apple-body {
+    @apply text-[17px] leading-[1.47] text-apple-secondary md:text-[19px] md:leading-[1.42];
+  }
 }

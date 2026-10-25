@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "siteTitle": "Ananya Verma — Patna High Court",
+    "siteDescription": "Professional information for Advocate Ananya Verma: practice before the Patna High Court, areas of work, chamber address, and contact details in Patna, Bihar."
+  },
+  "nav": {
+    "home": "Home",
+    "profile": "Profile",
+    "practiceAreas": "Practice Areas",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "locale": {
+    "en": "English",
+    "hi": "हिन्दी"
+  },
+  "hero": {
+    "eyebrow": "Advocate · Patna, Bihar",
+    "title": "Advocate, Patna High Court",
+    "intro": "Ananya Verma practises before the Patna High Court and allied forums in Patna. This site sets out professional background, areas of legal work, and chamber contact details.",
+    "profileLink": "View professional profile",
+    "contactLink": "Contact information"
+  },
+  "home": {
+    "profileHeading": "Professional profile",
+    "profileExcerpt": "Enrolled with the Bar Council of Bihar in 2018. Work includes writ petitions, civil appeals, service matters, and criminal proceedings connected with the Patna High Court.",
+    "profileCta": "Read full profile",
+    "practiceHeading": "Areas of practice",
+    "practiceIntro": "The fields of law in which the advocate practises. Each area is described in general terms to help visitors understand the subject matter—not as a promise of representation or outcome.",
+    "practiceCta": "View all practice areas",
+    "locationHeading": "Court and professional location",
+    "locationBody": "Chamber No. 118, Advocates' Chambers on Buddha Marg, adjacent to the Patna High Court main building. Visitors should confirm timing before coming to the chamber.",
+    "locationCta": "Directions and contact",
+    "contactHeading": "Professional contact",
+    "contactIntro": "Factual contact details for professional correspondence. Sending an enquiry does not create a lawyer–client relationship or guarantee a response.",
+    "contactCta": "Go to contact page"
+  },
+  "profile": {
+    "title": "Profile",
+    "intro": "This page presents verified professional information in a factual manner. It is not promotional material.",
+    "identityHeading": "Professional identity",
+    "identityBody": "Ananya Verma is an advocate enrolled with the Bar Council of Bihar and appearing in matters before the Patna High Court and courts at Patna.",
+    "enrolmentLabel": "Enrolment",
+    "educationHeading": "Education and qualifications",
+    "educationItems": [
+      "B.A. LL.B. (Hons.) — Chanakya National Law University, Patna, 2017",
+      "Higher Secondary — Patna Women's College, Patna, 2012"
+    ],
+    "backgroundHeading": "Professional background",
+    "backgroundBody": "Since enrolment in 2018, court practice has included constitutional writs under Articles 226 and 227, civil and service appeals, and bail and criminal matters listed before the Patna High Court. Earlier chamber practice with a senior advocate at Patna High Court (2017–2018) prior to independent enrolment.",
+    "addressHeading": "Professional address"
+  },
+  "practice": {
+    "title": "Practice areas",
+    "intro": "General descriptions of legal subjects. Listing an area indicates the advocate may handle matters of that nature; it does not constitute legal advice for your situation.",
+    "areas": {
+      "constitutional": {
+        "title": "Constitutional law and writ proceedings",
+        "body": "Matters concerning fundamental rights, constitutional remedies, and writ jurisdiction under Articles 226 and 227 of the Constitution, where relevant to the practice."
+      },
+      "civil": {
+        "title": "Civil law",
+        "body": "Civil disputes such as property, contracts, injunctions, and other civil proceedings before appropriate courts and tribunals, as undertaken."
+      },
+      "criminal": {
+        "title": "Criminal law",
+        "body": "Criminal proceedings, bail, trial matters, and related procedural issues before competent courts, where applicable."
+      },
+      "service": {
+        "title": "Service and administrative law",
+        "body": "Service disputes, disciplinary proceedings, and challenges to administrative orders, where within the advocate's practice."
+      },
+      "commercial": {
+        "title": "Commercial and other matters",
+        "body": "Commercial disputes, arbitration, or other specialised fields only when accurately within the advocate's actual practice."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Professional contact information for correspondence. Please do not send confidential documents through unsecured channels.",
+    "nameLabel": "Name",
+    "designationLabel": "Designation",
+    "addressLabel": "Chamber address",
+    "phoneLabel": "Telephone",
+    "emailLabel": "Email",
+    "hoursLabel": "Availability",
+    "mapHeading": "Location",
+    "mapNote": "Map link opens in a new tab. Confirm the published address before visiting.",
+    "formNotice": "If a contact form is added later, it should state that submission does not establish representation and should not be used for urgent or confidential material without a secure process."
+  },
+  "privacy": {
+    "title": "Privacy",
+    "intro": "This website collects minimal personal data. The following explains what may be processed if you use the site or contact the advocate.",
+    "sections": [
+      {
+        "heading": "Information we may collect",
+        "body": "Technical logs (such as browser type and approximate access time) may be processed by the hosting provider. If you email or call using the details on this site, you choose what information to share."
+      },
+      {
+        "heading": "Use of information",
+        "body": "Information is used only to operate the website, respond to professional enquiries where appropriate, and maintain security. It is not sold for marketing purposes."
+      },
+      {
+        "heading": "Retention",
+        "body": "Retention periods depend on the nature of the communication and applicable obligations. Enquiries that do not lead to engagement may be deleted after a reasonable period."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request correction or deletion of personal data held through this website, subject to legal and professional record-keeping requirements."
+      }
+    ]
+  },
+  "disclaimer": {
+    "title": "Disclaimer",
+    "intro": "Please read this notice before relying on any material on this website.",
+    "sections": [
+      {
+        "heading": "General information only",
+        "body": "Content on this website is for general information. It is not legal advice for a particular case and should not be treated as a substitute for consultation with a qualified advocate."
+      },
+      {
+        "heading": "No lawyer–client relationship",
+        "body": "Use of this website, or sending an email or message, does not by itself create an advocate–client relationship. Representation arises only through express agreement and compliance with applicable rules."
+      },
+      {
+        "heading": "Accuracy",
+        "body": "While care is taken to present accurate professional information, the site may not reflect the latest changes in law or court practice. Verify critical details independently."
+      },
+      {
+        "heading": "External links",
+        "body": "Links to official court websites or other sources are provided for convenience. The advocate is not responsible for third-party content."
+      },
+      {
+        "heading": "Professional conduct",
+        "body": "This website is intended to furnish permitted professional information. It must not be read as solicitation or advertising contrary to applicable Bar Council rules."
+      }
+    ]
+  },
+  "images": {
+    "hero": "Colonial high court building facade, illustrative architecture photograph",
+    "profilePortrait": "Illustrative professional portrait of an advocate in court dress",
+    "location": "Patna High Court building, India postage stamp illustration",
+    "practiceLibrary": "Law library shelves with legal volumes",
+    "practiceConstitutional": "Constitutional law books and documents on a desk",
+    "practiceCivil": "Civil contract documents on a desk",
+    "practiceCriminal": "Court filing documents and procedural papers",
+    "contactOffice": "Professional meeting room for chamber consultations"
+  },
+  "footer": {
+    "tagline": "Professional information · Patna High Court",
+    "privacy": "Privacy",
+    "disclaimer": "Disclaimer",
+    "copyright": "All rights reserved.",
+    "conductNote": "Informational website only. Not solicitation of work."
+  }
+}
