@@ -75,6 +75,7 @@ export function SiteHeader() {
         <nav
           id="mobile-nav"
           className="border-t border-black/5 bg-apple-bg px-5 py-3 md:hidden"
+          data-lenis-prevent
           aria-label="Primary mobile"
         >
           <ul className="flex flex-col">

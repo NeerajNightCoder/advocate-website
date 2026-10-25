@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { PageHeader, Section } from "@/components/ui/section";
+import { MotionPageHeader, MotionSection } from "@/components/motion/motion-section";
+import { Section } from "@/components/ui/section";
 
 type DisclaimerPageProps = PageProps<"/[locale]/disclaimer">;
 
@@ -20,13 +21,17 @@ export default async function DisclaimerPage({ params }: DisclaimerPageProps) {
   return (
     <>
       <Section className="pb-8 pt-12 md:pt-16">
-        <PageHeader title={t("title")} intro={t("intro")} centered />
+        <MotionPageHeader title={t("title")} intro={t("intro")} centered />
       </Section>
       {sections.map((section, index) => (
-        <Section key={section.heading} tone={index % 2 === 0 ? "muted" : "default"}>
+        <MotionSection
+          key={section.heading}
+          tone={index % 2 === 0 ? "muted" : "default"}
+          revealDelay={index * 0.04}
+        >
           <h2 className="apple-subhead">{section.heading}</h2>
           <p className="mt-4 max-w-3xl apple-body">{section.body}</p>
-        </Section>
+        </MotionSection>
       ))}
     </>
   );

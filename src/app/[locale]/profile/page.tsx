@@ -1,6 +1,8 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { MotionPageHeader, MotionSection } from "@/components/motion/motion-section";
+import { ScrollParallaxFrame } from "@/components/motion/scroll-parallax-frame";
 import { SiteImage } from "@/components/ui/site-image";
-import { PageHeader, Section } from "@/components/ui/section";
+import { Section } from "@/components/ui/section";
 import { getAdvocateDisplayName, siteConfig } from "@/lib/site-config";
 
 type ProfilePageProps = PageProps<"/[locale]/profile">;
@@ -22,18 +24,18 @@ export default async function ProfilePage({ params }: ProfilePageProps) {
   return (
     <>
       <Section className="pb-4 pt-12 md:pt-16">
-        <PageHeader title={t("title")} intro={t("intro")} centered />
-        <div className="relative mx-auto mt-10 aspect-[3/4] max-w-xs overflow-hidden rounded-3xl bg-apple-muted ring-1 ring-black/5">
+        <MotionPageHeader title={t("title")} intro={t("intro")} centered />
+        <ScrollParallaxFrame className="mx-auto mt-10 aspect-[3/4] max-w-xs rounded-3xl bg-apple-muted ring-1 ring-black/5">
           <SiteImage
             imageKey="profilePortrait"
             alt={images("profilePortrait")}
             fill
             sizes="320px"
           />
-        </div>
+        </ScrollParallaxFrame>
       </Section>
 
-      <Section tone="muted">
+      <MotionSection tone="muted">
         <h2 className="apple-subhead">{t("identityHeading")}</h2>
         <p className="mt-4 max-w-3xl apple-body">{t("identityBody")}</p>
         <ul className="mt-6 space-y-2 text-[15px] legal-citation text-apple-secondary">
@@ -44,23 +46,23 @@ export default async function ProfilePage({ params }: ProfilePageProps) {
           </li>
           <li>{siteConfig.courtName}, {siteConfig.location}</li>
         </ul>
-      </Section>
+      </MotionSection>
 
-      <Section>
+      <MotionSection revealDelay={0.05}>
         <h2 className="apple-subhead">{t("educationHeading")}</h2>
         <ul className="mt-4 list-disc space-y-2 pl-5 text-[17px] leading-relaxed text-apple-secondary">
           {educationItems.map((item) => (
             <li key={item}>{item}</li>
           ))}
         </ul>
-      </Section>
+      </MotionSection>
 
-      <Section tone="muted">
+      <MotionSection tone="muted" revealDelay={0.06}>
         <h2 className="apple-subhead">{t("backgroundHeading")}</h2>
         <p className="mt-4 max-w-3xl apple-body">{t("backgroundBody")}</p>
-      </Section>
+      </MotionSection>
 
-      <Section>
+      <MotionSection revealDelay={0.08}>
         <div className="grid items-start gap-8 md:grid-cols-2">
           <div>
             <h2 className="apple-subhead">{t("addressHeading")}</h2>
@@ -70,16 +72,16 @@ export default async function ProfilePage({ params }: ProfilePageProps) {
               {siteConfig.chamberAddress.line2}
             </address>
           </div>
-          <div className="relative aspect-[16/9] overflow-hidden rounded-3xl bg-apple-muted ring-1 ring-black/5">
+          <ScrollParallaxFrame className="aspect-[16/9] rounded-3xl bg-apple-muted ring-1 ring-black/5">
             <SiteImage
               imageKey="location"
               alt={images("location")}
               fill
               sizes="(max-width: 768px) 100vw, 480px"
             />
-          </div>
+          </ScrollParallaxFrame>
         </div>
-      </Section>
+      </MotionSection>
     </>
   );
 }
